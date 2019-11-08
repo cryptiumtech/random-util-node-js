@@ -17,4 +17,8 @@ function randomBase64(lengthBytes) {
     return randomBuffer(lengthBytes).toString('base64');
 }
 
-export { randomHex, randomBase64 };
+function randomBase64url(lengthBytes) {
+    return randomBase64(lengthBytes).replace(/\+/g, "-").replace(/\//g, "_");
+}
+  
+export { randomHex, randomBase64, randomBase64url };
