@@ -1,5 +1,5 @@
-random-node-js
-==============
+random-util-node-js
+===================
 
 A library that generates random numbers in hex and base64 format,
 in a Node environment.
