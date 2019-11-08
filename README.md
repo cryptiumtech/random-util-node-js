@@ -7,8 +7,8 @@ in a Node environment.
 Build:
 
 ```
-npm run build
 npm run lint
+npm run build
 ```
 
 Run all tests:
